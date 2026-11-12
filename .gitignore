@@ -1,0 +1,11 @@
+data/
+everyday/cpp/build*/
+everyday/rust/target/
+short/cpp/build*/
+short/rust/target/
+__pycache__/
+*.cast.tmp
+.DS_Store
+.vscode/
+.idea/
+.env

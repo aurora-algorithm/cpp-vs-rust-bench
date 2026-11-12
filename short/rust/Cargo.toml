@@ -1,0 +1,14 @@
+[package]
+name = "cpp_vs_rust_short"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+serde = { version = "=1.0.229", features = ["derive"] }
+serde_json = "=1.0.154"
+simd-json = "=0.19.0"
+sonic-rs = "=0.5.10"
+memchr = "=2.8.3"
+
+# cargo's default release profile (opt-level 3, no LTO), the same "Release" C++ gets from CMake.

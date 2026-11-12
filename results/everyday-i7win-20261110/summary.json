@@ -1,0 +1,82 @@
+{
+  "cpp-regex-std": {
+    "label": "C++ std::regex",
+    "recorded_runs": 15,
+    "runs_s_median": 12.6797,
+    "runs_s_plain_median": 12.5921,
+    "job_s_median": 11.9809,
+    "job_s_plain_median": 11.9034,
+    "load_s_median": 0.662,
+    "load_s_plain_median": 0.6556
+  },
+  "rust-regex-lines": {
+    "label": "Rust regex",
+    "recorded_runs": 50,
+    "runs_s_median": 0.9887,
+    "runs_s_plain_median": 0.9926,
+    "job_s_median": 0.6713,
+    "job_s_plain_median": 0.666,
+    "load_s_median": 0.2744,
+    "load_s_plain_median": 0.2871
+  },
+  "cpp-sort-duration": {
+    "label": "C++ std::sort",
+    "recorded_runs": 50,
+    "runs_s_median": 0.7433,
+    "runs_s_plain_median": 0.7431,
+    "job_s_median": 0.2155,
+    "job_s_plain_median": 0.2149,
+    "load_s_median": 0.3799,
+    "load_s_plain_median": 0.3824
+  },
+  "rust-sort-duration": {
+    "label": "Rust sort_unstable_by",
+    "recorded_runs": 50,
+    "runs_s_median": 0.7616,
+    "runs_s_plain_median": 0.7503,
+    "job_s_median": 0.1753,
+    "job_s_plain_median": 0.1691,
+    "load_s_median": 0.3245,
+    "load_s_plain_median": 0.3205
+  },
+  "cpp-agg-1core": {
+    "label": "C++ p99 per path, 1 core",
+    "recorded_runs": 50,
+    "runs_s_median": 0.693,
+    "runs_s_plain_median": 0.6866,
+    "job_s_median": 0.2426,
+    "job_s_plain_median": 0.244,
+    "load_s_median": 0.3733,
+    "load_s_plain_median": 0.3691
+  },
+  "rust-agg-1core": {
+    "label": "Rust p99 per path, 1 core",
+    "recorded_runs": 50,
+    "runs_s_median": 0.8843,
+    "runs_s_plain_median": 0.8683,
+    "job_s_median": 0.4823,
+    "job_s_plain_median": 0.4672,
+    "load_s_median": 0.3208,
+    "load_s_plain_median": 0.3192
+  },
+  "cpp-agg-8cores": {
+    "label": "C++ p99 per path, 8 cores",
+    "recorded_runs": 50,
+    "runs_s_median": 0.5453,
+    "runs_s_plain_median": 0.5422,
+    "job_s_median": 0.1042,
+    "job_s_plain_median": 0.1011,
+    "load_s_median": 0.3713,
+    "load_s_plain_median": 0.3725
+  },
+  "rust-agg-8cores": {
+    "label": "Rust p99 per path, 8 cores",
+    "recorded_runs": 50,
+    "runs_s_median": 0.5032,
+    "runs_s_plain_median": 0.4989,
+    "job_s_median": 0.1059,
+    "job_s_plain_median": 0.1062,
+    "load_s_median": 0.3131,
+    "load_s_plain_median": 0.3151
+  }
+}

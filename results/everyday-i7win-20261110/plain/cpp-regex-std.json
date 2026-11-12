@@ -1,0 +1,115 @@
+{
+  "schema_version": 2,
+  "metadata": {
+    "hyperfine_version": "2.0.0",
+    "start_time": "2026-11-10T09:02:31Z",
+    "platform": {
+      "os": "Windows_NT",
+      "architecture": "x86_64"
+    }
+  },
+  "primary_metric": "time_wall_clock",
+  "results": [
+    {
+      "command": "everyday/cpp/build/everyday.exe regex data/log.jsonl results/everyday-i7win-20261110/plain/cpp-regex-std.out std",
+      "name": "C++ std::regex",
+      "measurements": [
+        {
+          "time_wall_clock": {
+            "value": 12.8909266,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 12.75,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 12.265625,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.48437500000000006,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 12.5875513,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 12.53125,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 12.0,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.53125,
+            "unit": "second"
+          },
+          "exit_code": 0
+        },
+        {
+          "time_wall_clock": {
+            "value": 12.5920626,
+            "unit": "second"
+          },
+          "time_cpu": {
+            "value": 12.53125,
+            "unit": "second"
+          },
+          "time_user": {
+            "value": 12.0625,
+            "unit": "second"
+          },
+          "time_system": {
+            "value": 0.46875000000000006,
+            "unit": "second"
+          },
+          "exit_code": 0
+        }
+      ],
+      "summary": {
+        "time_cpu": {
+          "unit": "second",
+          "count": 3,
+          "mean": 12.604166666666666,
+          "stddev": 0.12629537138523064,
+          "median": 12.53125,
+          "min": 12.53125,
+          "max": 12.75
+        },
+        "time_system": {
+          "unit": "second",
+          "count": 3,
+          "mean": 0.4947916666666667,
+          "stddev": 0.032526031241658294,
+          "median": 0.48437500000000006,
+          "min": 0.46875000000000006,
+          "max": 0.53125
+        },
+        "time_user": {
+          "unit": "second",
+          "count": 3,
+          "mean": 12.109375,
+          "stddev": 0.13887803777055607,
+          "median": 12.0625,
+          "min": 12.0,
+          "max": 12.265625
+        },
+        "time_wall_clock": {
+          "unit": "second",
+          "count": 3,
+          "mean": 12.690180166666666,
+          "stddev": 0.17386614342350676,
+          "median": 12.5920626,
+          "min": 12.5875513,
+          "max": 12.8909266
+        }
+      }
+    }
+  ]
+}

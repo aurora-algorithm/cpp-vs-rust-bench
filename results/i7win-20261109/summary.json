@@ -1,0 +1,50 @@
+{
+  "cpp-popular": {
+    "label": "C++ nlohmann/json",
+    "recorded_runs": 50,
+    "runs_s_median": 13.6608,
+    "runs_s_plain_median": 13.8117
+  },
+  "rust-popular": {
+    "label": "Rust serde_json",
+    "recorded_runs": 50,
+    "runs_s_median": 1.8164,
+    "runs_s_plain_median": 1.8134
+  },
+  "cpp-fastest": {
+    "label": "C++ simdjson",
+    "recorded_runs": 50,
+    "runs_s_median": 0.6055,
+    "runs_s_plain_median": 0.6183
+  },
+  "rust-fastest-serde": {
+    "label": "Rust serde_json",
+    "recorded_runs": 50,
+    "runs_s_median": 1.2586,
+    "runs_s_plain_median": 1.2563
+  },
+  "rust-fastest-simd": {
+    "label": "Rust simd-json",
+    "recorded_runs": 50,
+    "runs_s_median": 1.4105,
+    "runs_s_plain_median": 1.4055
+  },
+  "rust-fastest-sonic": {
+    "label": "Rust sonic-rs",
+    "recorded_runs": 50,
+    "runs_s_median": 1.3962,
+    "runs_s_plain_median": 1.3901
+  },
+  "rust-checks-on": {
+    "label": "Rust v[i], checked",
+    "recorded_runs": 50,
+    "runs_s_median": 0.9979,
+    "runs_s_plain_median": 0.9851
+  },
+  "rust-checks-off": {
+    "label": "Rust get_unchecked",
+    "recorded_runs": 50,
+    "runs_s_median": 0.9904,
+    "runs_s_plain_median": 0.9949
+  }
+}

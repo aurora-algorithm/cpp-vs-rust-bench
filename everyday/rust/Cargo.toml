@@ -1,0 +1,11 @@
+[package]
+name = "everyday"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+regex = "=1.13.1"
+rayon = "=1.12.0"
+
+# cargo's default release profile (opt-level 3, no LTO), the same "Release" C++ gets from CMake.

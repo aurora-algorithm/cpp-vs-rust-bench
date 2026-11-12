@@ -1,0 +1,15 @@
+{
+  "versions": {
+    "rustc": "rustc 1.99.1 (58cf8f9c3 2026-10-13)\nbinary: rustc\ncommit-hash: 58cf8f9c35b355199727627d07ae34a4e2846d67\ncommit-date: 2026-10-13\nhost: x86_64-pc-windows-msvc\nrelease: 1.99.1\nLLVM version: 23.1.1",
+    "clang": "clang version 23.1.5 (https://github.com/llvm/llvm-project 392dfff97d29b59d77e5cac6d4b6ef2585fe7117)",
+    "hyperfine": "hyperfine 2.0.0",
+    "os": "Windows-11-10.0.26200-SP0",
+    "cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "power_plan": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)"
+  },
+  "rounds": 5,
+  "pinned_cpu": 4,
+  "log": "data/log.jsonl",
+  "log_sha256": "25d56055a8dbd9d9dcf856f35593ebb0cfd85d24ca1b0089109376efb52829f1",
+  "started": "Mon Nov  9 01:00:01 2026"
+}
